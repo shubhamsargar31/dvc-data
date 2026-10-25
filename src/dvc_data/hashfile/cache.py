@@ -8,10 +8,7 @@ from typing import Any, ClassVar, Literal, Optional
 
 import diskcache_community as diskcache
 from diskcache_community import Disk as _Disk
-from diskcache_community import (
-    Index,
-    Timeout,
-)
+
 from dvc_data.compat import batched
 
 
