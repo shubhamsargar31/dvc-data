@@ -6,13 +6,12 @@ from functools import wraps
 from itertools import zip_longest
 from typing import Any, ClassVar, Literal, Optional
 
-import diskcache
-from diskcache import Disk as _Disk
-from diskcache import (
-    Index,  # noqa: F401
-    Timeout,  # noqa: F401
+import diskcache_community as diskcache
+from diskcache_community import Disk as _Disk
+from diskcache_community import (
+    Index,
+    Timeout,
 )
-
 from dvc_data.compat import batched
 
 
